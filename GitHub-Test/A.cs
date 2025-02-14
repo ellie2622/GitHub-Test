@@ -8,5 +8,10 @@ namespace GitHub_Test
 {
     internal class A
     {
+        public void Print()
+        {
+            Console.WriteLine("hello:D");
+        }
+
     }
 }
