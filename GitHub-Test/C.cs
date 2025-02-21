@@ -12,5 +12,15 @@ namespace GitHub_Test
         {
             return Math.Sqrt(a);
         }
+        public double babylonSqrt(double a)
+        {
+            double guess = a / 2;
+            while (Math.Abs(guess* guess - a) < 0.01)
+            {
+                double other = a / guess;
+                guess = (guess+other)/2;
+            }
+            return guess;
+        }
     }
 }
