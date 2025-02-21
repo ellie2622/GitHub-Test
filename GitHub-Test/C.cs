@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace GitHub_Test
 {
-    internal class A
+    internal class C
     {
-        public void Print()
+        public double Sqrt(double a)
         {
-            Console.WriteLine("hello:D");
+            return Math.Sqrt(a);
         }
-
     }
 }
